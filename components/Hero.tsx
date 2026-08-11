@@ -6,7 +6,22 @@ import HeroShape from "./HeroShape";
 export default function Hero() {
   return (
     <div className="section-hero">
+      <link
+        rel="preload"
+        as="image"
+        href="/images/hero.avif"
+        media="(max-width: 767px)"
+        fetchPriority="high"
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="/images/hero_2x.avif"
+        media="(min-width: 768px)"
+        fetchPriority="high"
+      />
       <Navbar />
+
       <div className="grid-hero">
         <Reveal className="h-full">
           <LineVertical variant="top" />

@@ -205,11 +205,16 @@ img {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   border-top-left-radius: 50vw;
   border-top-right-radius: 50vw;
   position: absolute;
   inset: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .image-shape {
+    background-image: url("/images/hero_2x.avif");
+  }
 }
 
 .grid-hero {
