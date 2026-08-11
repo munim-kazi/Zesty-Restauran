@@ -36,6 +36,7 @@ export default function About() {
                   alt=""
                   width={565}
                   height={724}
+                  sizes="(max-width: 767px) 54vw, 28vw"
                   className="image shadow"
                 />
               </Reveal>
@@ -46,6 +47,7 @@ export default function About() {
                 alt=""
                 width={730}
                 height={933}
+                sizes="(max-width: 767px) 90vw, 47vw"
                 className="image"
               />
             </Reveal>

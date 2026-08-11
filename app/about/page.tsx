@@ -58,7 +58,7 @@ export default function AboutPage() {
                 alt=""
                 width={1086}
                 height={1026}
-                sizes="91vw"
+                sizes="(max-width: 991px) 91vw, 60vw"
                 className="image"
               />
             </Reveal>
@@ -68,7 +68,7 @@ export default function AboutPage() {
                 alt=""
                 width={1050}
                 height={1230}
-                sizes="91vw"
+                sizes="(max-width: 991px) 91vw, 45vw"
                 className="image shadow"
               />
             </Reveal>
@@ -95,7 +95,7 @@ export default function AboutPage() {
                 alt=""
                 width={968}
                 height={1113}
-                sizes="91vw"
+                sizes="(max-width: 991px) 91vw, 45vw"
                 className="image"
               />
             </Reveal>

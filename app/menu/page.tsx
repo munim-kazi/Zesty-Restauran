@@ -190,7 +190,7 @@ export default function MenuPage() {
                     alt={`${category.title} dishes`}
                     width={1424}
                     height={320}
-                    sizes="90vw"
+                    sizes="(max-width: 479px) 155vw, 90vw"
                     className="image-menu"
                   />
                   <h3 className="heading-menu">{category.title}</h3>

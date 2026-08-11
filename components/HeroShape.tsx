@@ -71,7 +71,7 @@ export default function HeroShape() {
       className="shape"
       ref={shapeRef}
       aria-hidden="true"
-      style={{ width: "50%", willChange: "width, height" }}
+      style={{ width: "50%" }}
     >
       <div
         className="image-shape"

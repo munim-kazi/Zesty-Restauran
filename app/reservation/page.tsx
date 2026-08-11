@@ -78,6 +78,7 @@ export default function ReservationPage() {
                 alt="The dining room at Zesty"
                 width={1920}
                 height={1210}
+                sizes="(max-width: 767px) 90vw, 91vw"
                 className="image"
               />
             </div>

@@ -89,6 +89,7 @@ export default function Features() {
                 alt=""
                 width={752}
                 height={628}
+                sizes="(max-width: 767px) 90vw, 60vw"
                 className="image-modular"
               />
             </Reveal>
@@ -99,6 +100,7 @@ export default function Features() {
                   alt=""
                   width={719}
                   height={930}
+                  sizes="(max-width: 767px) 54vw, 36vw"
                   className="image shadow"
                 />
               </Reveal>

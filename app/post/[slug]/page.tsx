@@ -36,6 +36,7 @@ function PostImage({ block }: { block: Extract<PostBlock, { type: "image" }> }) 
         alt={block.alt}
         width={1920}
         height={1210}
+        sizes="(max-width: 767px) 90vw, 60vw"
         className="image"
       />
     </div>
@@ -82,6 +83,7 @@ export default async function PostPage({ params }: PostPageProps) {
                   alt={post.imageAlt}
                   width={1920}
                   height={1210}
+                  sizes="(max-width: 767px) 90vw, 60vw"
                   className="image"
                 />
               </div>

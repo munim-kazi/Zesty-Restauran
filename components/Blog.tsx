@@ -36,6 +36,7 @@ export default function Blog() {
                     alt={post.imageAlt}
                     width={682}
                     height={413}
+                    sizes="(max-width: 767px) 90vw, 30vw"
                     className="image-blog"
                   />
                 </a>

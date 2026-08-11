@@ -46,8 +46,8 @@ export default function Slider() {
                 alt={slide.alt}
                 width={1352}
                 height={864}
+                sizes="(max-width: 767px) 90vw, 83vw"
                 className="image-slide"
-                priority={i === 0}
               />
             </div>
           ))}
