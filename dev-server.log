@@ -1,0 +1,24 @@
+
+> zesty-restaurant@1.0.0 dev
+> next dev
+
+   ▲ Next.js 15.5.23
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.10.212:3000
+
+ ✓ Starting...
+ ✓ Ready in 1813ms
+ ○ Compiling /blog ...
+ ✓ Compiled /about in 16.9s (671 modules)
+ GET /about 200 in 14210ms
+ GET /blog 200 in 17651ms
+ GET /blog 200 in 72ms
+ ✓ Compiled / in 351ms (688 modules)
+ GET / 200 in 477ms
+ GET / 200 in 43ms
+ ✓ Compiled in 267ms (688 modules)
+ GET / 200 in 119ms
+ GET / 200 in 179ms
+ GET / 200 in 100ms
+ GET / 200 in 101ms
+ ✓ Compiled in 458ms (688 modules)
